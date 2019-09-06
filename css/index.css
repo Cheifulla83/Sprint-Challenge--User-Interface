@@ -30,15 +30,19 @@ footer, header, hgroup, menu, nav, section {
 }
 .image-nav {
     display:flex;
-    justify-content: space-around;
-    width:900px;
-    margin-left: 70px;
+    justify-content: center;
+    width:1300px;
+    margin-left: 200px;
     padding-top:20px;
 }
+.img-nav img {
+    width:200px;
+}
+
 .image-nav nav {
     display:flex;
     width: 600px;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 7px;
 }
 .image-nav nav a {
@@ -203,4 +207,27 @@ footer nav a {
 }
 . .boxes .teal {
     background-color:teal;
+}
+
+.top-boxes, .bottom-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+.top-boxes {
+    border-top: 2px dashed black;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+}
+.about-boxes {
+    border-bottom: 2px dashed black;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+button {
+    background: white;
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
 }
