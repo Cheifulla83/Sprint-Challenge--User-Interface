@@ -28,6 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.image-nav {
+    display:flex;
+    justify-content: center;
+    width:1300px;
+    margin-left: 200px;
+    padding-top:20px;
+}
+.img-nav img {
+    width:200px;
+}
+
+.image-nav nav {
+    display:flex;
+    width: 600px;
+    justify-content: space-around;
+    padding-top: 7px;
+}
+.image-nav nav a {
+    color: black;
+    text-decoration: none;
+}
+.top-img {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 body {
 	line-height: 1;
 }
@@ -112,6 +138,41 @@ p {
     justify-content: center;
 }
 
+#teal {
+    background: teal;
+}
+#gold {
+    background:gold;
+}
+#cadetblue {
+    background:cadetblue;
+}
+#coral {
+    background:coral;
+}
+#crimson {
+    background:crimson;
+}
+#forestgreen {
+    background:forestgreen;
+}
+#darkorchid {
+    background: darkorchid;
+}
+#hotpink {
+    background:hotpink;
+}
+#indigo {
+    background:indigo;
+}
+#dodgerblue {
+    background:dodgerblue;
+}
+
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +204,30 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+. .boxes .teal {
+    background-color:teal;
+}
+
+.top-boxes, .bottom-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+.top-boxes {
+    border-top: 2px dashed black;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+}
+.about-boxes {
+    border-bottom: 2px dashed black;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+button {
+    background: white;
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
 }
