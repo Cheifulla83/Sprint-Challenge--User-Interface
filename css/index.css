@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
     justify-content: space-around;
     width:900px;
     margin-left: 70px;
+    padding-top:20px;
 }
 .image-nav nav {
     display:flex;
