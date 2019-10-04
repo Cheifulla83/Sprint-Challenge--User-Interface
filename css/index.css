@@ -31,19 +31,16 @@ footer, header, hgroup, menu, nav, section {
 .image-nav {
     display:flex;
     justify-content: center;
-    width:1300px;
-    margin-left: 200px;
+    width: 100%;
     padding-top:20px;
 }
-.img-nav img {
-    width:200px;
-}
+
 
 .image-nav nav {
     display:flex;
     width: 600px;
     justify-content: space-around;
-    padding-top: 7px;
+    padding-top: 15px;
 }
 .image-nav nav a {
     color: black;

@@ -34,11 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Sementic HTML is a desciptive way of breaking down the different parts of a web page.
+Sementic HTML is a desciptive way of breaking down the different parts of a web page to make them easier to read to a screen reader.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-with block you can control the width and height. with inline the items will stay with-in the block element.
+Display-block allows you to control the width and height of the element. Display-inline elements will stay with-in the block element.
 
 3. What are the 4 areas of the box model?
 
@@ -50,7 +50,7 @@ cross axis
 
 5. Explain why git is valuable to a team of developers.
 
-because it allows the team to all work on the same project and track eachoters changes so there is no conflit
+Git is vauluable because it allows a team to all work on the same project and track each others changes without affecting the original project
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
