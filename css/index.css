@@ -167,13 +167,16 @@ p {
 }
 
 
-
+button {
+    margin-top: 10px;
+    padding: 5px;
+}
 
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
@@ -187,6 +190,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -208,7 +212,8 @@ footer nav a {
 
 .top-boxes, .bottom-boxes {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 .top-boxes {
     border-top: 2px dashed black;
@@ -221,6 +226,7 @@ footer nav a {
     border-bottom: 2px dashed black;
     margin: 10px;
     padding-bottom: 20px;
+    width: 50%;
 }
 button {
     background: white;
