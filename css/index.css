@@ -30,9 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 .image-nav {
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
-    padding-top:20px;
+    padding:20px 0;
 }
 
 
@@ -98,7 +98,7 @@ p {
     width: 80%;
     margin: 0 auto;
 }
-
+/*main content*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +106,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .top-content .text-container {
     width: 40%;
@@ -181,33 +182,6 @@ p {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-    margin-top: 20px;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
- .boxes .teal {
-    background-color:teal;
-}
-
 .top-boxes, .bottom-boxes {
     display: flex;
     justify-content: space-between;
@@ -226,6 +200,7 @@ footer nav a {
     padding-bottom: 20px;
     width: 50%;
 }
+/* button */
 button {
     background: white;
     color:black;
@@ -238,4 +213,25 @@ button {
 button:hover {
     background: grey;
     color: white;
+}
+/*footer*/
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    margin-top: 20px;
 }
