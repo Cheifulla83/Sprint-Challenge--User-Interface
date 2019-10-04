@@ -90,7 +90,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -166,13 +166,6 @@ p {
     background:dodgerblue;
 }
 
-
-button {
-    margin-top: 10px;
-    padding: 5px;
-}
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -233,4 +226,11 @@ button {
     color:black;
     border: 1px solid black;
     border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+button:hover {
+    background: grey;
+    color: white;
 }
